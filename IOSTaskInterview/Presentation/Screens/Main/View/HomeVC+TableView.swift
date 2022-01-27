@@ -28,7 +28,6 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             let result = "result \(res.description)"
             fullText = fullText + "\n" + result
         }
-        cell.backgroundColor = .lightGray
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.text = fullText
         return cell

@@ -29,13 +29,13 @@ class NormalEquation: Question {
             self.result = numbers.reduce(0, +)
             return result!.description
         case .div:
-            self.result = numbers.reduce(0, /)
+            self.result = numbers.reduce(1, /)
             return result!.description
         case .sub:
             self.result = numbers.reduce(0, -)
             return result!.description
         case .mul:
-            self.result = numbers.reduce(0, *)
+            self.result = numbers.reduce(1, *)
             return result!.description
         }
     }
