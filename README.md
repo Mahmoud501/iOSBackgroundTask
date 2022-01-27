@@ -17,6 +17,6 @@
 Screens build in MVP Architecture , some of screen had to ignore archit for lack of time.
 
 
-# Thanks
-# BR Mahmoud Zaki
+
+# Thanks BR Mahmoud Zaki
 
