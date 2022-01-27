@@ -41,6 +41,7 @@
 		B73CD13327A2F82C0040B335 /* HomeVC+PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
 		B73CD13527A2F8840040B335 /* HomeVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+TableView.swift"; sourceTree = "<group>"; };
 		B73CD13827A3036A0040B335 /* AddTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
+		B73CD13A27A3097E0040B335 /* Read.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Read.md; sourceTree = "<group>"; };
 		B7997F3627A2C17000FD2A2F /* IOSTaskInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSTaskInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7997F3927A2C17000FD2A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7997F3B27A2C17000FD2A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		B7997F2D27A2C17000FD2A2F = {
 			isa = PBXGroup;
 			children = (
+				B73CD13A27A3097E0040B335 /* Read.md */,
 				B7997F3827A2C17000FD2A2F /* IOSTaskInterview */,
 				B7997F3727A2C17000FD2A2F /* Products */,
 			);
