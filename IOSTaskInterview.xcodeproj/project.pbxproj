@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73CD12427A2ED5C0040B335 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD12327A2ED5C0040B335 /* HomeVC.swift */; };
+		B73CD12827A2EDA90040B335 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD12727A2EDA90040B335 /* HomePresenter.swift */; };
+		B73CD12B27A2EF1C0040B335 /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD12A27A2EF1B0040B335 /* HomeViewProtocol.swift */; };
+		B73CD12E27A2EFC80040B335 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD12D27A2EFC80040B335 /* HomeRouter.swift */; };
+		B73CD13227A2F0A70040B335 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD13127A2F0A70040B335 /* QuestionModel.swift */; };
+		B73CD13427A2F82D0040B335 /* HomeVC+PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD13327A2F82C0040B335 /* HomeVC+PresenterDelegate.swift */; };
+		B73CD13627A2F8840040B335 /* HomeVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD13527A2F8840040B335 /* HomeVC+TableView.swift */; };
+		B73CD13927A3036A0040B335 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CD13827A3036A0040B335 /* AddTaskVC.swift */; };
 		B7997F3A27A2C17000FD2A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F3927A2C17000FD2A2F /* AppDelegate.swift */; };
 		B7997F3C27A2C17000FD2A2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F3B27A2C17000FD2A2F /* SceneDelegate.swift */; };
-		B7997F3E27A2C17000FD2A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F3D27A2C17000FD2A2F /* ViewController.swift */; };
 		B7997F4127A2C17000FD2A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7997F3F27A2C17000FD2A2F /* Main.storyboard */; };
 		B7997F4327A2C17200FD2A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7997F4227A2C17200FD2A2F /* Assets.xcassets */; };
 		B7997F4627A2C17200FD2A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7997F4427A2C17200FD2A2F /* LaunchScreen.storyboard */; };
+		B7997F5827A2C22E00FD2A2F /* NormalEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F5727A2C22E00FD2A2F /* NormalEquation.swift */; };
+		B7997F5B27A2C24C00FD2A2F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F5A27A2C24C00FD2A2F /* Question.swift */; };
+		B7997F5F27A2C2C900FD2A2F /* OperatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F5E27A2C2C900FD2A2F /* OperatorType.swift */; };
+		B7997F6127A2C42300FD2A2F /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F6027A2C42300FD2A2F /* TaskModel.swift */; };
+		B7997F6327A2C4DA00FD2A2F /* TaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F6227A2C4D900FD2A2F /* TaskStatus.swift */; };
+		B7997F6627A2C60B00FD2A2F /* MathEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F6527A2C60B00FD2A2F /* MathEngineService.swift */; };
+		B7997F6827A2C61F00FD2A2F /* BGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F6727A2C61F00FD2A2F /* BGService.swift */; };
+		B7997F6A27A2C63300FD2A2F /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F6927A2C63300FD2A2F /* ServiceProtocol.swift */; };
+		B7997F6F27A2D36300FD2A2F /* Int+UniqueID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F6E27A2D36300FD2A2F /* Int+UniqueID.swift */; };
+		B7997F7127A2E83200FD2A2F /* EngineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7997F7027A2E83200FD2A2F /* EngineProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B73CD12327A2ED5C0040B335 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B73CD12727A2EDA90040B335 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B73CD12A27A2EF1B0040B335 /* HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocol.swift; sourceTree = "<group>"; };
+		B73CD12D27A2EFC80040B335 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		B73CD13127A2F0A70040B335 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		B73CD13327A2F82C0040B335 /* HomeVC+PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
+		B73CD13527A2F8840040B335 /* HomeVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+TableView.swift"; sourceTree = "<group>"; };
+		B73CD13827A3036A0040B335 /* AddTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
 		B7997F3627A2C17000FD2A2F /* IOSTaskInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSTaskInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7997F3927A2C17000FD2A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7997F3B27A2C17000FD2A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7997F3D27A2C17000FD2A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7997F4027A2C17000FD2A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7997F4227A2C17200FD2A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7997F4527A2C17200FD2A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7997F4727A2C17200FD2A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7997F5727A2C22E00FD2A2F /* NormalEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalEquation.swift; sourceTree = "<group>"; };
+		B7997F5A27A2C24C00FD2A2F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B7997F5E27A2C2C900FD2A2F /* OperatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorType.swift; sourceTree = "<group>"; };
+		B7997F6027A2C42300FD2A2F /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		B7997F6227A2C4D900FD2A2F /* TaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStatus.swift; sourceTree = "<group>"; };
+		B7997F6527A2C60B00FD2A2F /* MathEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEngineService.swift; sourceTree = "<group>"; };
+		B7997F6727A2C61F00FD2A2F /* BGService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGService.swift; sourceTree = "<group>"; };
+		B7997F6927A2C63300FD2A2F /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		B7997F6E27A2D36300FD2A2F /* Int+UniqueID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+UniqueID.swift"; sourceTree = "<group>"; };
+		B7997F7027A2E83200FD2A2F /* EngineProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +71,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B73CD12527A2ED6F0040B335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD12327A2ED5C0040B335 /* HomeVC.swift */,
+				B73CD13527A2F8840040B335 /* HomeVC+TableView.swift */,
+				B73CD13327A2F82C0040B335 /* HomeVC+PresenterDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B73CD12627A2ED770040B335 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD12727A2EDA90040B335 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B73CD12927A2EEF00040B335 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD12A27A2EF1B0040B335 /* HomeViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B73CD12C27A2EF870040B335 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD12D27A2EFC80040B335 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B73CD13027A2F09B0040B335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD13127A2F0A70040B335 /* QuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B73CD13727A3035C0040B335 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD13827A3036A0040B335 /* AddTaskVC.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
 		B7997F2D27A2C17000FD2A2F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +140,134 @@
 		B7997F3827A2C17000FD2A2F /* IOSTaskInterview */ = {
 			isa = PBXGroup;
 			children = (
-				B7997F3927A2C17000FD2A2F /* AppDelegate.swift */,
-				B7997F3B27A2C17000FD2A2F /* SceneDelegate.swift */,
-				B7997F3D27A2C17000FD2A2F /* ViewController.swift */,
-				B7997F3F27A2C17000FD2A2F /* Main.storyboard */,
-				B7997F4227A2C17200FD2A2F /* Assets.xcassets */,
-				B7997F4427A2C17200FD2A2F /* LaunchScreen.storyboard */,
-				B7997F4727A2C17200FD2A2F /* Info.plist */,
+				B73CD13027A2F09B0040B335 /* Model */,
+				B7997F5227A2C1CF00FD2A2F /* Infrastructure */,
+				B7997F4E27A2C18500FD2A2F /* Presentation */,
+				B7997F4D27A2C17800FD2A2F /* Application */,
 			);
 			path = IOSTaskInterview;
+			sourceTree = "<group>";
+		};
+		B7997F4D27A2C17800FD2A2F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F4727A2C17200FD2A2F /* Info.plist */,
+				B7997F4227A2C17200FD2A2F /* Assets.xcassets */,
+				B7997F3927A2C17000FD2A2F /* AppDelegate.swift */,
+				B7997F3B27A2C17000FD2A2F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B7997F4E27A2C18500FD2A2F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5127A2C19800FD2A2F /* Screens */,
+				B7997F4F27A2C18B00FD2A2F /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B7997F4F27A2C18B00FD2A2F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F4427A2C17200FD2A2F /* LaunchScreen.storyboard */,
+				B7997F3F27A2C17000FD2A2F /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7997F5127A2C19800FD2A2F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD13727A3035C0040B335 /* AddTask */,
+				B7997F6B27A2CFE100FD2A2F /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B7997F5227A2C1CF00FD2A2F /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5527A2C1E600FD2A2F /* Engine */,
+				B7997F5327A2C1DD00FD2A2F /* Helper */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		B7997F5327A2C1DD00FD2A2F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F6E27A2D36300FD2A2F /* Int+UniqueID.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B7997F5527A2C1E600FD2A2F /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5C27A2C2A800FD2A2F /* Entities */,
+				B7997F6427A2C5F900FD2A2F /* Classes */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		B7997F5627A2C20C00FD2A2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5727A2C22E00FD2A2F /* NormalEquation.swift */,
+				B7997F6027A2C42300FD2A2F /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7997F5927A2C23800FD2A2F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5A27A2C24C00FD2A2F /* Question.swift */,
+				B7997F6927A2C63300FD2A2F /* ServiceProtocol.swift */,
+				B7997F7027A2E83200FD2A2F /* EngineProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B7997F5C27A2C2A800FD2A2F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5D27A2C2BE00FD2A2F /* Enum */,
+				B7997F5927A2C23800FD2A2F /* Protocol */,
+				B7997F5627A2C20C00FD2A2F /* Models */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B7997F5D27A2C2BE00FD2A2F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F5E27A2C2C900FD2A2F /* OperatorType.swift */,
+				B7997F6227A2C4D900FD2A2F /* TaskStatus.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		B7997F6427A2C5F900FD2A2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B7997F6527A2C60B00FD2A2F /* MathEngineService.swift */,
+				B7997F6727A2C61F00FD2A2F /* BGService.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B7997F6B27A2CFE100FD2A2F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B73CD12527A2ED6F0040B335 /* View */,
+				B73CD12927A2EEF00040B335 /* Protocol */,
+				B73CD12627A2ED770040B335 /* Presenter */,
+				B73CD12C27A2EF870040B335 /* Router */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +341,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7997F3E27A2C17000FD2A2F /* ViewController.swift in Sources */,
+				B7997F6127A2C42300FD2A2F /* TaskModel.swift in Sources */,
+				B73CD13627A2F8840040B335 /* HomeVC+TableView.swift in Sources */,
+				B73CD12427A2ED5C0040B335 /* HomeVC.swift in Sources */,
 				B7997F3A27A2C17000FD2A2F /* AppDelegate.swift in Sources */,
+				B73CD12827A2EDA90040B335 /* HomePresenter.swift in Sources */,
+				B7997F5B27A2C24C00FD2A2F /* Question.swift in Sources */,
+				B7997F6F27A2D36300FD2A2F /* Int+UniqueID.swift in Sources */,
+				B73CD13927A3036A0040B335 /* AddTaskVC.swift in Sources */,
+				B7997F6627A2C60B00FD2A2F /* MathEngineService.swift in Sources */,
+				B73CD12B27A2EF1C0040B335 /* HomeViewProtocol.swift in Sources */,
+				B73CD12E27A2EFC80040B335 /* HomeRouter.swift in Sources */,
+				B73CD13427A2F82D0040B335 /* HomeVC+PresenterDelegate.swift in Sources */,
+				B7997F7127A2E83200FD2A2F /* EngineProtocol.swift in Sources */,
+				B7997F6327A2C4DA00FD2A2F /* TaskStatus.swift in Sources */,
 				B7997F3C27A2C17000FD2A2F /* SceneDelegate.swift in Sources */,
+				B7997F5827A2C22E00FD2A2F /* NormalEquation.swift in Sources */,
+				B7997F6827A2C61F00FD2A2F /* BGService.swift in Sources */,
+				B73CD13227A2F0A70040B335 /* QuestionModel.swift in Sources */,
+				B7997F5F27A2C2C900FD2A2F /* OperatorType.swift in Sources */,
+				B7997F6A27A2C63300FD2A2F /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +511,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4673NFB24A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IOSTaskInterview/Info.plist;
+				INFOPLIST_FILE = IOSTaskInterview/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +539,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4673NFB24A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IOSTaskInterview/Info.plist;
+				INFOPLIST_FILE = IOSTaskInterview/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
